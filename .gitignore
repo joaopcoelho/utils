@@ -1,0 +1,20 @@
+.idea/
+*/__pycache__
+
+# If AIRFLOW_HOME is set to the current working directory, then logs will be written
+logs
+
+# When running locally, airflow stores local state in a sqlite db
+airflow.db
+
+# webserver pid is not worth checking in
+airflow-webserver.pid
+
+# Ignore the airflow config file
+airflow.cfg
+
+#Python
+*.pyc
+
+#Mac
+*.DS_Store
